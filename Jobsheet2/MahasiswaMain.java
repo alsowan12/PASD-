@@ -2,16 +2,20 @@ package Jobsheet2;
 
 public class MahasiswaMain {
     public static void main(String[] args){
-        Mahasiswa_04 mhsl = new Mahasiswa_04 ();
-        mhsl.nama = "Muhammad ALi Farhan";
-        mhsl.nim = "2241720171";
-        mhsl.kelas = "TI-2J";
-        mhsl.ipk = 3.55;
+        Mahasiswa_04 mhs1 = new Mahasiswa_04 ();
+        mhs1.nama = "Muhammad ALi Farhan";
+        mhs1.nim = "2241720171";
+        mhs1.kelas = "TI-2J";
+        mhs1.ipk = 3.55;
 
-        mhsl.tampilkanData();
-        mhsl.ubahKelas("SI-2K");
-        mhsl.updateIPK(3.60);
-        mhsl.tampilkanData();
+        mhs1.tampilkanInformasi();
+        mhs1.ubahKelas("SI-2K");
+        mhs1.updateIPK(3.60);
+        mhs1.tampilkanInformasi();
+
+        Mahasiswa_04 mhs2 = new Mahasiswa_04 ("Annisa Nabila","2141720160", 3.25, "TI-2L");
+        mhs2.updateIPK(3.60);
+        mhs2.tampilkanInformasi();    
 
     }
     
