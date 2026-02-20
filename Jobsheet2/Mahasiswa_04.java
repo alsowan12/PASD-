@@ -1,12 +1,21 @@
 package Jobsheet2;
 // Class Mahasiswa_04
-public class Mahasiswa_04 {
+public class Mahasiswa_04{
     // Atribut-atribut untuk menyimpan data mahasiswa seperti nama, nim, kelas, dan ipk
+    public Mahasiswa_04 () {
+        // Konstruktor default
+    }
+    public Mahasiswa_04 (String nm, String nim, double ipk, String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    } // Konstruktor berparameter
     String nama;
     String nim;
     String kelas;
     double ipk;
-    void tampilkanData() {
+    void tampilkanInformasi() {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
         System.out.println("Kelas: " + kelas);
@@ -32,5 +41,3 @@ public class Mahasiswa_04 {
         }
     }
     
-
-
