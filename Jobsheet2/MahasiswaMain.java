@@ -17,6 +17,16 @@ public class MahasiswaMain {
         mhs2.updateIPK(3.60);
         mhs2.tampilkanInformasi();    
 
+        Mahasiswa_04 mhs3 = new Mahasiswa_04("Rina", "1234567890", 3.75, "TI-2M");
+        mhs3.ubahKelas("SI-2M");
+        mhs3.updateIPK(3.80);
+        mhs3.tampilkanInformasi();
+
+        Mahasiswa_04 mhs4 = new Mahasiswa_04("Dewi Lestari", "2256789012", 3.80, "TI-2N");
+        mhs4.ubahKelas("SI-2N");
+        mhs4.updateIPK(3.85);
+        mhs4.tampilkanInformasi();
+
     }
     
 }
